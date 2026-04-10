@@ -18,11 +18,66 @@ buildNumber.properties
 *.sublime-project
 *.sublime-workspace
 .vscode/
+*.swp
+*.swo
+*~
 
 # Logs
 *.log
 logs/
+server.log
+compile*.log
+run.log
 
 # OS
 .DS_Store
 Thumbs.db
+.DS_Store?
+*.stackdump
+
+# Windows
+$RECYCLE.BIN/
+Desktop.ini
+
+# macOS
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Database scripts (if they contain sensitive data, consider if these should be versioned)
+# create_*.sql
+# setup-*.sql
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Package manager
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+build/
+dist/
+*.jar
+*.war
+*.ear
+
+# Temporary files
+tmp/
+temp/
