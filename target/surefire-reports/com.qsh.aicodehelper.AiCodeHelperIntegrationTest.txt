@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.qsh.aicodehelper.AiCodeHelperIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.01 s -- in com.qsh.aicodehelper.AiCodeHelperIntegrationTest

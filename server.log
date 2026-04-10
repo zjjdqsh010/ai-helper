@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.qsh:ai-code-helper-openai >--------------------
+[INFO] Building ai-code-helper-openai 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ ai-code-helper-openai >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-code-helper-openai ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ai-code-helper-openai ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 23 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/workspace/ai-code-helper-openai/src/main/java/com/qsh/aicodehelper/aspect/TokenUsageAspect.java:[70,91] 找不到符号
+  符号:   方法 recordUsage(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,<nulltype>,java.lang.String,java.lang.String,java.lang.String,<nulltype>)
+  位置: 类型为com.qsh.aicodehelper.service.TokenUsageService的变量 tokenUsageService
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.916 s
+[INFO] Finished at: 2026-04-10T11:24:13+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project ai-code-helper-openai: Compilation failure
+[ERROR] /F:/workspace/ai-code-helper-openai/src/main/java/com/qsh/aicodehelper/aspect/TokenUsageAspect.java:[70,91] 找不到符号
+[ERROR]   符号:   方法 recordUsage(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,<nulltype>,java.lang.String,java.lang.String,java.lang.String,<nulltype>)
+[ERROR]   位置: 类型为com.qsh.aicodehelper.service.TokenUsageService的变量 tokenUsageService
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

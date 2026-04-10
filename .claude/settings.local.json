@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean:*)",
+      "Bash(curl:*)",
+      "Read(//tmp/**)",
+      "Bash(chmod +x test-auth.sh)",
+      "Bash(./test-auth.sh)",
+      "Bash(chmod +x test-auth-complete.sh)",
+      "Bash(./test-auth-complete.sh)",
+      "Bash(chmod +x verify-auth.sh)",
+      "Bash(./verify-auth.sh)",
+      "Bash(powershell Stop-Process:*)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(chmod +x test-auth-integration.sh)",
+      "Bash(./test-auth-integration.sh)",
+      "Bash(chmod +x test-final-auth.sh)",
+      "Bash(./test-final-auth.sh)",
+      "Bash(chmod +x test-new-auth-pages.sh)",
+      "Bash(./test-new-auth-pages.sh)",
+      "Bash(chmod +x test-usage-final.sh)",
+      "Bash(./test-usage-final.sh)",
+      "Bash(psql:*)",
+      "Bash(find:*)",
+      "Bash(pkill -f \"spring-boot\")",
+      "Bash(taskkill /F /IM java.exe)"
+    ]
+  }
+}
